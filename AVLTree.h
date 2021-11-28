@@ -256,7 +256,7 @@ rooted with y (on the left side) or x (on
 the right side)
 	 y                            x
 	/ \   Left Rotation          / \
-   T1  x  ---------------->     y   T3
+       T1  x  ---------------->     y   T3
 	  / \                      / \
 	 T2  T3                   T1  T2
 */
@@ -278,9 +278,9 @@ rooted with y (on the left side) or x (on
 the right side)
 	 y                               x
 	/ \     Right Rotation          /  \
-   x   T3   - - - - - - - >        T1   y
-  / \		                           / \
- T1  T2		                          T2  T3
+       x   T3   - - - - - - - >        T1   y
+      / \		                   / \
+     T1  T2		                  T2  T3
 	*/
 	void rightRotate(TreeNode<K, V>*& ptr)
 	{
